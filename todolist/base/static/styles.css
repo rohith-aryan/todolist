@@ -1,0 +1,92 @@
+/* static/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Additional styles for forms */
+form {
+    margin-top: 20px;
+}
+
+/* Additional styles for login page */
+.login-container {
+    width: 300px; /* Set the width of the login container */
+    margin: 100px auto; /* Center the container vertically and horizontally */
+    padding: 20px; /* Add padding */
+    background-color: #ffffff; /* White background for the form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #007BFF; /* Bootstrap primary color */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Display labels as block */
+    margin-bottom: 5px; /* Space below label */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007BFF; /* Primary button color */
+    border: none; /* No border */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+p {
+    text-align: center; /* Center paragraph */
+}
+
+p a {
+    color: #007BFF; /* Link color */
+    font-size: 14px; /* Smaller font size */
+}
+
+p a:hover {
+    text-decoration: underline; /* Underline on hover */
+    font-weight: bold; /* Bold on hover for emphasis */
+}
